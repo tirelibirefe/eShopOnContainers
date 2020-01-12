@@ -2,7 +2,7 @@ version: 2.1
 
 orbs:
   win: circleci/windows@1.0.0
-
+working_directory: ~/eshoponcontainers/src/
 jobs:
   build:
     executor:
